@@ -1,0 +1,139 @@
+.visual img{
+    opacity: none;
+    height:30rem;
+    width:100%;
+    background-color: teal;
+    border: none;
+}
+.Firstheading{
+    color: black;
+    position:absolute;
+    top: 40%;
+    left: 60%;
+    background-color: turquoise;
+    border-radius: 15px 50px;
+    font-size: 2.5rem;
+    opacity: 0.5;
+    transform: translate(6%,50%);
+    -ms-transform: translate(50%,50%);
+    font-family:"Audiowide", sans-serif;
+    cursor: pointer;
+}
+.Firstheading:hover{
+    background-color: cadetblue;
+    color: black;
+    
+}
+.custom{
+    background-color:darkgoldenrod;
+    display:inline-block ;
+    width: 33%;
+    height: 450px;
+}
+.custom img{
+    width: 250px;
+    height: 200px;
+    border-radius: 30%;
+    transform: translate(40%,20%);
+    padding:1px;
+}
+.custom h1{
+    color: black;
+    position:absolute;
+    background-color:darkcyan;
+    border-radius: 15px 50px;
+    font-size: 2.5rem;
+    font-family:"Audiowide", sans-serif;
+    cursor: pointer;
+    top: 140%;
+    text-align: right;
+    
+}
+.custom p{
+    padding-top: 33px;
+}
+.custom p:hover{
+    color: black;
+}
+.custom:hover{
+    border-radius: 1%;
+    border: 2px solid black;
+    background-color:darkgrey;
+    color: white;
+}
+.bottompic{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align:center ;
+    font-family: monospace;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-right: 1px;
+    padding-top: 1px;
+    
+}
+.contact{
+    width: 49.5%;
+    height: 200px;
+    background-color: teal;
+    padding-top: 1px;
+    float: left;
+    padding: 1px;
+} 
+.contact1{
+    width: 50%;
+    height: 200px;
+    background-color: teal;
+    padding-top: 1px;
+    float: right;
+}
+@media screen and (max-width:700px) {
+
+    .custom{
+    background-color:darkgoldenrod;
+    display:inline-block ;
+    width: 100%;
+    height: 450px;
+    padding: 1px;
+    padding-bottom: 10px;
+    margin: 1px;
+}
+.custom h1{
+    display: none;
+    
+}
+.bottompic{
+    background-color: black;
+    width: 100%;
+    height: 170px;
+    color: white;
+    text-align:center ;
+    font-family: monospace;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-right: 1px;
+    padding-top: 1px;
+    margin: 1px;
+    
+}
+.contact{
+    width: 100%;
+    height: auto;
+    background-color: teal;
+    padding-top: 1px;
+    float: left;
+    margin: 1px;
+} 
+.contact1{
+    width: 100%;
+    height: auto;
+    background-color: teal;
+    padding-top: 1px;
+    float: right;
+    margin: 1px;
+}
+}
